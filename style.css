@@ -1,0 +1,243 @@
+.nav,
+.hero,
+.footer {
+    background-color: #FED5F9;
+    padding: 50px 200px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-style: bold;
+    font-weight: 500px;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 350px;
+    color: #A32C94;
+}
+
+.nav-logo {
+    max-width: 75px;
+    max-height: 75px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.hero-button {
+    background-color: #7F1572;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: none;
+}
+
+.nav-links,
+.subhead {
+    font-size: 18px;
+    color: #A32C94;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.content-headline {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #A32C94;
+    text-align: center;
+}
+
+.text {
+    font-style: bold;
+    font-weight: 200px;
+    color: white
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background-color: #A32C94;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+
+li:hover {
+    background-color: white;
+    color: #A32C94;
+}
+
+button:hover {
+    background-color:white;
+    color: #A32C94;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    align-self: center;
+}
+
+.hero {
+    display: flex;
+}
+
+.headline {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #A32C94;
+    margin: 0px;
+    padding: 0px;
+}
+
+.left-column {
+    flex-basis: 50%;
+}
+
+.right-column {
+    flex: 0 1 50%;
+    align-self: center;
+    height: auto;
+}
+
+.image {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    align-self: center;
+    border-radius: 30px;
+    border: 8px solid white;
+    object-fit: cover;
+}
+
+.content {
+    padding: 50px;
+    background-image: url(https://images.unsplash.com/photo-1641417843392-7069bbfb1f88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 50px;
+    text-align: center;
+    font-style: bold;
+    font-size: 16px;
+}
+
+.container-image {
+    flex: 0 1 25%;
+    height: 200px;
+    width: 100%;
+    gap: 20px;
+    border-radius: 20px;
+    border: 5px solid pink;
+    object-fit: cover;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #fcc6dc;
+    color: #1F2937;
+    padding: 50px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.author {
+    align-self: flex-end;
+    font-style: bold;
+    font-size: 20px;
+
+}
+
+.container {
+    padding: 80px;
+}
+
+.CTA {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    border-radius: 20px;
+    background-color: white;
+    background-image: url(https://images.unsplash.com/photo-1511184150666-9bb7d41a88f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+    color: #A32C94;
+    border: 3px solid #A32C94;
+    margin: 100px;
+}
+
+.CTA-container {
+    justify-content: space-between;
+}
+
+.CTA-headline {
+    font-style: bold;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.CTA-subtext {
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+.CTA-button {
+    justify-content: flex-end;
+    align-self: center;
+    flex-grow: 0;
+    max-height: 50px;
+    color: white;
+    background-color: #A32C94;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-style: bold;
+}
+
+.CTA-button:hover {
+    background-color: white;
+    color: #A32C94;
+    border: 3px solid #A32C94;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+}
+
+img { 
+    width: 100%;
+    max-height: 100%;
+    /* height: auto; */
+  }
